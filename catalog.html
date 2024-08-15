@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title> Каталог</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="button-navigation">
+
+       <a class="navigation-logo" href="index.html">
+        <img class="page-header-logo" src="#" alt="City of Sedona">
+       </a>
+        <ul class="naviga tion-list">
+          <li class="navigation-item">
+            <a class="navigation-link" href="index.html">Главная</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">О Седоне</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
+          </li>
+        </ul>
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visualli-hiddeh">
+                Поиск
+              </span>
+            </a>
+          </li>
+          <li class="navigation-favourites">
+            <a class="navigation-link" href="#">
+              <span class="visualli-hiddeh">
+                Избранное
+              </span>
+              <span class="notification-badge">12</span>
+            </a>
+          </li>
+          <li class="navigation-registration">
+            <a class="navigation-link" href="#">
+              <span class="registration">
+                Хочу сюда!
+              </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-inner">
+      <header class="inner-header">
+        <h1 class="inner-header-title">Гостиницы Седоны</h1>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item visualli-hidden">
+            <a class="breadcrumbs-link" href="index.html">Главная</a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="#">Гостиницы</a>
+          </li>
+        </ul>
+      </header>
+      <section class="catalog-products">
+        <h2 class="visualli-hidden">Список товаров с фильтрами</h2>
+        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+          <filedset class="catalog-filter-group">
+            <legend class="catalog-filter-title">
+              Инфраструктура:
+            </legend>
+            <legend class="catalog-filter-title">
+              Тип Жилья:
+            </legend>
+            <legend class="catalog-filter-title">
+              Стоимость, ₽:
+            </legend>
+          </filedset>
+          <button class="button" type="submit">Применить</button>
+          <button class="button" type="submit">Сбросить</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
