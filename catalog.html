@@ -64,7 +64,7 @@
       <section class="catalog-products">
         <h2 class="visualli-hidden">Список товаров с фильтрами</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-          <filedset class="catalog-filter-group">
+          <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Инфраструктура:</legend>
             <ul class="catalog-filter-list">
               <li class=catalog-filter-item>
@@ -77,12 +77,14 @@
                   <input class="control-input" type="checkbox" name="parking" checked>Парковка
                 </label>
               </li>
-              <li class=catalog-filter-item>Инфраструктура:</label>
+              <li class=catalog-filter-item>
                 <label class="control">
                   <input class="control-input" type="checkbox" name="Wi-Fi">Wi-Fi
                 </label>
               </li>
             </ul>
+            </fieldset>
+            <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">
               Тип Жилья:
             </legend>
@@ -97,16 +99,18 @@
                   <input class="control-input" type="radio" name="type-housing" value="motel">Мотель
                 </label>
               </li>
-              <li class=catalog-filter-item>Инфраструктура:</label>
+              <li class=catalog-filter-item>
                 <label class="control">
                   <input class="control-input" type="radio" name="type-housing" value="apartments">Апартаменты
                 </label>
               </li>
             </ul>
+            </fieldset>
+            <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">
               Стоимость, ₽:
             </legend>
-          </filedset>
+          </fieldset>
           <button class="button button-apply" type="submit">Применить</button>
           <button class="button" type="submit">Сбросить</button>
         </form>
@@ -131,7 +135,7 @@
         <ul class="product-list">
         <li class="product-card-">
           <a class="product-card-link" href="#">
-            <img class="product-card-image" crc="#" alt="Звёздное небо, вид из пещеры">
+            <img class="product-card-image" src="#" alt="Звёздное небо, вид из пещеры">
             <h3 class="product-card-title">Amara Resort & Spa</h3>
           </a>
           <p class="type-of-housing">Гостиница</p>
@@ -145,7 +149,7 @@
         </li>
         <li class="product-card-">
           <a class="product-card-link" href="#">
-            <img class="product-card-image" crc="#" alt="Радуга над горами">
+            <img class="product-card-image" src="#" alt="Радуга над горами">
             <h3 class="product-card-title">Villas at Poco Diablo</h3>
           </a>
           <p class="type-of-housing">Гостиница</p>
@@ -159,7 +163,7 @@
         </li>
         <li class="product-card-">
           <a class="product-card-link" href="#">
-            <img class="product-card-image" crc="#" alt="Горы рядом с лесом во время заката">
+            <img class="product-card-image" src="#" alt="Горы рядом с лесом во время заката">
             <h3 class="product-card-title">Desert Quail Inn</h3>
           </a>
           <p class="type-of-housing">Гостиница</p>
@@ -173,7 +177,7 @@
         </li>
         <li class="product-card-">
           <a class="product-card-link" href="#">
-            <img class="product-card-image" crc="#" alt="Красные горы с ярким звёздным небом">
+            <img class="product-card-image" src="#" alt="Красные горы с ярким звёздным небом">
             <h3 class="product-card-title">GreenTree Inn</h3>
           </a>
           <p class="type-of-housing">Гостиница</p>
@@ -221,6 +225,7 @@
       </section>
       <footer class="page-footer">
         <section class="social-media">
+          <h2 class="visualli-hidden">Социальные сети</h2>
           <ul class="social-media-list">
             <li class="social-media-item visualli-hidden">
               <a class="button" href="https://vk.com/htmlacademy">
@@ -246,11 +251,13 @@
           </ul>
         </section>
         <section class="contacts">
+          <h2 class="visualli-hidden">Контакты</h2>
           <a class="contacts-phone" href="tel:+78128121212">+7(812)812-12-12</a>
         </section>
         <section class="developer">
+          <h2 class="visualli-hidden">Разработчик сайта</h2>
           <a class="developer-logo" href="https://htmlacademy.ru/">
-            <img crs="#" alt="Разработчик HTML-academy">
+            <img src="#" alt="Разработчик HTML-academy">
           </a>
         </section>
       </footer>
